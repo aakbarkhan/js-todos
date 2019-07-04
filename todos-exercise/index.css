@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 100;
+}
+
+
+h1{
+    color: rgb(189, 133, 133);   
+
+}
+.main-heading{
+    display: flex;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-content: center;
+    
+}
+.input{
+    text-align: center;
+    width: 550px;
+    height: 50px;
+    border: 1px solid rgb(209, 202, 202);
+    padding: 0;
+
+}
+.items-list{
+    display: flex;
+    justify-content: space-around;
+    border: none;
+    width: 590px;
+    margin-left: 359px;
+    
+    
+}
+ul{
+    list-style: none;
+    width: 100%;   
+}
+li{
+    border: 1px solid gray;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 2px;
+}
+span{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-delete{
+    float: right;
+    background: rgb(255, 255, 255);
+   color: brown;
+    display:inline-block;
+    border: none;
+    margin-top: 6px;
+    margin-right: 2px;
+}
+.all-btn{
+    display: flex;
+    justify-content: center;
+
+}
+.complete, .notcomplete, .allTask, .clear {
+    border: none;
+    height: 30px;
+    margin: 0 3px;
+    background: none;
+}
