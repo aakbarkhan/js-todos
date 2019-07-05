@@ -94,8 +94,10 @@ let allShow=document.querySelector(".allTask")
 allShow.addEventListener("click", ShowAllTheTask)
 
 function clearCompleteTask(){
-    delete arr;
-    displayitems(newarr);
+    todos=todos.filter(todo=>todo.done===false);
+    displayitems(todos);
+    
+    }
 }
 let clear=document.querySelector(".clear")
 clear.addEventListener("click",clearCompleteTask)
